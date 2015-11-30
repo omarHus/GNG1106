@@ -47,7 +47,6 @@ void print_binary_rep(int user_input, int length)
         {
             out = 0;
             printf("%d", out);
-
         }
         // odd numbers
         else
@@ -64,5 +63,4 @@ void print_binary_rep(int user_input, int length)
         print_zeros(length-counter);
         counter = 0;
     }
-
 }
